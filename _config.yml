@@ -4,7 +4,7 @@ description: 'Blockchain DApps'
 permalink: ':title:output_ext'
 baseurl: "/"
 url: "https://luigicallero.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/MVM-logo-full.svg"
+logo: "/assets/img/branding/ethereum.jpg"
 logo-icon: "/assets/img/branding/MVM-symbol.svg"
 logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
 
@@ -37,15 +37,10 @@ github: luigicallero # Add your Github handle
 twitter: '@LuisIgnacioCal1' # Add your Twitter handle
 
 # Newsletter
-mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Disqus
-discus_identifier: amaynez-github-io # Add your discus identifier
-comments_curtain: yes # leave empty to show the disqus embed directly
 
 # Tracker
-analytics: G-R8SZS2YBZK
-fbadmin: ar.maybach
 
 # Paginate
 paginate: 6
