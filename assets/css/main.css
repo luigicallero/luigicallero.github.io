@@ -539,7 +539,7 @@ svg {
 .wrapper {
   width: 960px;
   max-width: 90%;
-  margin: 0.75em auto 0.75em;
+  margin: 20px auto 0.75em;
   position: relative;
 }
 ::-moz-selection {
