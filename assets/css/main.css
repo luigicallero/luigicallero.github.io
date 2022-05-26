@@ -1796,7 +1796,8 @@ img + small, img + br + small {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  margin: 0 auto 30px;
+  /* margin: 0 auto 30px; */
+  margin: 0;
 }
 
 .about-header .subtitle {
