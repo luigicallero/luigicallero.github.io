@@ -1766,7 +1766,7 @@ img + small, img + br + small {
 }
 
 .about-container {
-  margin: 200px 0 200px;
+  margin: 20px 0 200px;
 }
 
 .about-header {
@@ -1796,8 +1796,7 @@ img + small, img + br + small {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  /* margin: 0 auto 30px; */
-  margin: 0;
+  margin: 0 auto 30px;
 }
 
 .about-header .subtitle {
