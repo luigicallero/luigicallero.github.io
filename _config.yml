@@ -2,7 +2,7 @@
 title: Luisca's Portfolio
 description: 'Blockchain DApps'
 permalink: ':title:output_ext'
-baseurl: "/"
+baseurl: "/_pages/about.html"
 url: "https://luigicallero.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/img/branding/blockchain_light.jpg"
 logo-icon: "/assets/img/branding/MVM-symbol.svg"
