@@ -4,7 +4,7 @@ description: 'Blockchain DApps'
 permalink: ':title:output_ext'
 baseurl: "/about.html"
 url: "https://luigicallero.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/blockchain_image_1.jpg"
+logo: "/assets/img/branding/blockchain_image_1.jpeg"
 logo-icon: "/assets/img/branding/MVM-symbol.svg"
 logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
 
