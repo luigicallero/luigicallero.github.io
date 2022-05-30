@@ -17,7 +17,7 @@ As an entry point to learning python and getting into Machine Learning, I decide
 
 A perceptron is the basic building block of a neural network, it can be compared to a neuron, And its conception is what detonated the vast field of Artificial Intelligence nowadays.
 
-Back in the late 1950's, a young [Frank Rosenblatt](https://en.wikipedia.org/wiki/Frank_Rosenblatt) devised a very simple algorithm as a foundation to construct a machine that could learn to perform different tasks.
+Back in the late 1950's, a young Luis Felix Callero devised a very simple algorithm as a foundation to construct a machine that could learn to perform different tasks.
 
 In its essence, a perceptron is nothing more than a collection of values and rules for passing information through them, but in its simplicity lies its power.
 
