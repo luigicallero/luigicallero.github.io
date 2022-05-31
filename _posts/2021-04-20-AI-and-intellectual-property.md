@@ -2,44 +2,46 @@
 layout: post
 read_time: true
 show_date: true
-title: "Who owns the copyright for an AI generated creative work?"
-date: 2021-04-20
-img: posts/20210420/post8-rembrandt.jpg
-tags: [copyright, creativity, neural networks, machine learning, artificial intelligence]
+title: "My First NFT Collection in Polygon Mainnet"
+date: 2022-04-20
+img: posts/20220420/mandos.png
+tags: [creativity, NFT, IPFS, generative art]
 category: opinion
-author: Armando Maynez
+author: Luis Ignacio Callero
 description: "As neural networks are used more and more in the creative process, text, images and even music are now created by AI, but who owns the copyright for those works?"
 ---
-Recently I was [reading an article](https://www.rollingstone.com/music/music-features/nirvana-kurt-cobain-ai-song-1146444/) about a cool project that intends to have a neural network create songs of the late club of the 27 (artists that have tragically died at age 27 or near, and in the height of their respective careers), artists such as Amy Winehouse, Jimmy Hendrix, Curt Cobain and Jim Morrison.
+Recently I created a video describing what is, and what are the benefits of generative art in the NFT creation scope.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tjzOzuKQhSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The project was created by [Over the Bridge](https://overthebridge.org), an organization dedicated to increase awareness on mental health and substance abuse in the music industry, trying to denormalize and remove the glamour around such illnesses within the music community.
+Generative art has allowed me to generate thousand of images that were finally converted into NFT. 
 
-They are using Google's [Magenta](https://magenta.tensorflow.org), which is a neural network that precisely was conceived to explore the role of machine learning within the creative process. Magenta has been used to create a brand new "Beatles" song or even there was a band that [used it to write a full album](https://arstechnica.com/gaming/2019/08/yachts-chain-tripping-is-a-new-landmark-for-ai-music-an-album-that-doesnt-suck/) in 2019.
+But let us start from the beginning:
 
-So, while reading the article, my immediate thought was: who owns the copyright of these new songs?
+### Graphic Design
+This stage was not a simple task. My team mate Juan Meregone was the one in charged of carefully designing the different layers in the XXX editor. He then exported those layers and group them in folders with descriptive names to allow me to understand the position they should be inserted in the final image.
 
-Think about it, imagine one of this new songs becomes a massive hit with millions of youtube views and spotify streams, who can claim the royalties generated?
+### Generative Art
+Once he had all the layers set up, I would use some nice code from [hashlips](https://github.com/HashLips/hashlips_art_engine) and with a few setting updates, it was ready to be used for our project. Thanks hashlips for sharing this great generating tool!!
+A thousand different images were generated including some that are rare which means that a specific layer is unique or probably not as frecuently used by other images.
 
-At first it seems quite simple, *Over the Bridge* should be the ones reaping the benefits, since they are the ones who had the idea, gathered the data and then fed the neural network to get the "work of art". But in a second thought, didn't the original artists provide the basis for the work the neural network generated? shouldn't their state get credit? what about Google whose tool was used, should they get credit too?
+### Decentralized Images
+If we are planning to create NFTs which is part of a decentralized world, we need a good counterpart to store the images.
+So, once all the unique images were successfully generated, I used the great benefits of decentralized hostings of IPFS (Inter Planetary File System) to upload and store my images. I uploaded all of them as a folder and IPFS in return provided a CID (Container Identifier). This CID is now part of my path to access my images in the IPFS.
+I would then generate a json file for each one of the images with the script provided in hashlips project. This json file contains some information as: id, image location, description, etc.
+All json files will also be uploaded to IPFS and a new CID for that folder is provided in return.
 
-Neural networks have been also used to create poetry, paintings and to write news articles, but how do they do it? A computer program developed for machine learning purposes is an algorithm that "learns" from data to make future decisions. When applied to art, music and literary works, machine learning algorithms are actually learning from some input data to generate a new piece of work, making independent decisions throughout the process to determine what the new work looks like. An important feature of this is that while programmers can set the parameters, the work is actually generated by the neural network itself, in a process akin to the thought processes of humans.
+<tweet>Pinata Cloud is a great tool to easily get access to IPFS since it also includes the "pin" option, ideal for NFTs since it allows for the images to remain "for ever" accessible</tweet> 
 
-Now, creative works qualify for copyright protection if they are original, with most definitions of originality requiring a human author. Most jurisdictions, including [Spain](https://www.wipo.int/wipolex/en/details.jsp?id=1319) and [Germany](https://dejure.org/gesetze/UrhG/7.html), specifically state that only works created by a human can be protected by [copyright](https://www.wipo.int/copyright/en/). In the United States, for example, [the Copyright Office has declared](https://copyright.gov/comp3/chap300/ch300-copyrightable-authorship.pdf) that it will “register an original work of authorship, provided that the work was created by a human being.” 
+### Minting NFTs
+Using the ERC721 contract template from [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/erc721#:~:text=ERC721%20is%20a%20standard%20for,across%20a%20number%20of%20contracts.)
 
-So as we currently stand, a human author is required to grant a copyright, which makes sense, there is no point of having a neural network be the beneficiary of royalties of a creative work (no bank would open an account for them anyways, lol).
+### Final Product in Open Sea
+[NFT Collection](https://opensea.io/collection/mandos-this-is-the-way)
 
-I think amendments have to be made to the law to ensure that the person who undertook all the arrangements necessary for the work to be created by the neural network gets the credit but also we need to modify copyright law to ensure the original authors of the body of work used as data input to produce the new piece get their corresponding share of credit. This will get messy if someone uses for example the #1 song of every month in a decade to create the decade song, then there would be as many as 120 different artists to credit.
 
-<tweet>In a computer generated artistic work, both the person who undertook all the arrangements necessary for its creation as well as the original authors of the data input need to be credited.</tweet> 
-
-There will still be some ambiguity as to who undertook the arrangements necessary, only the one who gathered the data and pressed the button to let the network learn, or does the person who created the neural network's model also get credit? Shall we go all the way and say that even the programmer of the neural network gets some credit as well?
-
-There are some countries, in particular the UK where some progress has been made to amend copyright laws to cater for computer generated works of art, but I believe this is one of those fields where technology will surpass our law making capacity and we will live under a grey area for a while, and maybe this is just what we need, by having these works ending up free for use by anyone in the world, perhaps a new model for remunerating creative work can be established, one that does not require commercial success to be necessary for artists to make a living, and thus they can become free to explore their art.
-
-<tweet>Perhaps a new model for remunerating creative work can be established, one that does not require commercial success to be necessary for artists to make a living.</tweet>
 
 ![The next Rembrandt](./assets/img/posts/20210420/post8-rembrandt2.jpg)
 <small>[The Next Rembrandt](https://www.jwt.com/en/work/thenextrembrandt) is a computer-generated 3-D–printed painting developed by a facial-recognition algorithm that scanned data from 346 known paintings by the Dutch painter in a process lasting 18 months. The portrait is based on 168,263 fragments from Rembrandt’s works.</small>
 
+I believe this was a great learning experience. Also was my first implementation to a Production Network since all of my previous projects were deployed in testnets.
