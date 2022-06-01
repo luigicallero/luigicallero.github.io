@@ -40,7 +40,7 @@ Using the ERC721 contract template from [OpenZeppelin](https://docs.openzeppelin
 [NFT Collection](https://opensea.io/collection/mandos-this-is-the-way)
 
 
-![Generative Art Image](./assets/img/posts/2022420/mando_large.png)
+![Generative Art Image](./assets/img/posts/20220420/mando_large.png)
 <small>[This mandalorian](https://opensea.io/assets/matic/0xc3b2d1fe02bc15182d676e59e3d3f5fe4ff41ac1/6) is the product of a generative art</small>
 
 I believe this was a great learning experience. Also was my first implementation to a Production Network since all of my previous projects were deployed in testnets.
