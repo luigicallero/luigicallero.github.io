@@ -8,11 +8,11 @@ img: posts/20220420/mandos.png
 tags: [creativity, NFT, IPFS, generative art]
 category: opinion
 author: Luis Ignacio Callero
-description: "As neural networks are used more and more in the creative process, text, images and even music are now created by AI, but who owns the copyright for those works?"
+description: "NFT project with Generative Art and IPFS"
 ---
 Recently I created a video describing what is, and what are the benefits of generative art in the NFT creation scope.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tjzOzuKQhSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/DK-SshPEBRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Generative art has allowed me to generate thousand of images that were finally converted into NFT. 
 
@@ -40,8 +40,7 @@ Using the ERC721 contract template from [OpenZeppelin](https://docs.openzeppelin
 [NFT Collection](https://opensea.io/collection/mandos-this-is-the-way)
 
 
-
-![The next Rembrandt](./assets/img/posts/20210420/post8-rembrandt2.jpg)
-<small>[The Next Rembrandt](https://www.jwt.com/en/work/thenextrembrandt) is a computer-generated 3-D–printed painting developed by a facial-recognition algorithm that scanned data from 346 known paintings by the Dutch painter in a process lasting 18 months. The portrait is based on 168,263 fragments from Rembrandt’s works.</small>
+![Generative Art Image](./assets/img/posts/2022420/mando_large.png)
+<small>[This mandalorian](https://opensea.io/assets/matic/0xc3b2d1fe02bc15182d676e59e3d3f5fe4ff41ac1/6) is the product of a generative art</small>
 
 I believe this was a great learning experience. Also was my first implementation to a Production Network since all of my previous projects were deployed in testnets.
