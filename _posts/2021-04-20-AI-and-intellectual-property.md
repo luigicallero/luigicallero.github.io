@@ -12,7 +12,7 @@ description: "NFT project with Generative Art and IPFS"
 ---
 Recently I created a video describing what is, and what are the benefits of generative art in the NFT creation scope.
 
-<iframe width="560" height="315" src="https://youtu.be/DK-SshPEBRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DK-SshPEBRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Generative art has allowed me to generate thousand of images that were finally converted into NFT. 
 
