@@ -34,13 +34,15 @@ All json files will also be uploaded to IPFS and a new CID for that folder is pr
 <tweet>Pinata Cloud is a great tool to easily get access to IPFS since it also includes the "pin" option, ideal for NFTs since it allows for the images to remain "for ever" accessible</tweet> 
 
 ### Minting NFTs
-Using the ERC721 contract template from [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/erc721#:~:text=ERC721%20is%20a%20standard%20for,across%20a%20number%20of%20contracts.)
+Using the ERC721 contract template from [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/erc721#:~:text=ERC721%20is%20a%20standard%20for,across%20a%20number%20of%20contracts.) I was able to deploy the NFTs initially on the Polygon testnet (Mumbai) and finally on the Polygon Mainnet.
 
 ### Final Product in Open Sea
-[NFT Collection](https://opensea.io/collection/mandos-this-is-the-way)
+You can access our [NFT Collection](https://opensea.io/collection/mandos-this-is-the-way) to check out how it looks in OpenSea NFT marketplace.
 
 
 ![Generative Art Image](./assets/img/posts/20220420/mando_large.png)
 <small>[This mandalorian](https://opensea.io/assets/matic/0xc3b2d1fe02bc15182d676e59e3d3f5fe4ff41ac1/6) is the product of a generative art</small>
 
-I believe this was a great learning experience. Also was my first implementation to a Production Network since all of my previous projects were deployed in testnets.
+I really believe this was a great learning experience. Also was my first implementation to a Production Blockchain, since all of my previous projects were deployed in testnets.
+
+<small>For a more detailed description of this deployment please visit the [NFT Repository](https://github.com/luigicallero/NFT_Mandalorian_Helmets)</small>
