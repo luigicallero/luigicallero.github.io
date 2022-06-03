@@ -45,4 +45,4 @@ You can access our [NFT Collection](https://opensea.io/collection/mandos-this-is
 
 I really believe this was a great learning experience. Also was my first implementation to a Production Blockchain, since all of my previous projects were deployed in testnets.
 
-<small>For a more detailed description of this deployment please visit the [NFT Repository](https://github.com/luigicallero/NFT_Mandalorian_Helmets)</small>
+<small>For a more detailed description of this deployment please visit the [NFT Repository](https://github.com/luigicallero/NFT_Mandalorians)</small>
