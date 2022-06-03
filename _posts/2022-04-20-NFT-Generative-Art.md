@@ -19,7 +19,7 @@ Generative art has allowed me to generate thousand of images that were finally c
 But let us start from the beginning:
 
 ### Graphic Design
-This stage was not a simple task. My team mate Juan Meregone was the one in charged of carefully designing the different layers in the XXX editor. He then exported those layers and group them in folders with descriptive names to allow me to understand the position they should be inserted in the final image.
+This stage was not a simple task. My team mate [Juan Meregone](https://www.linkedin.com/in/juanmeregone) was the one in charged of carefully designing the different layers with Inkscape and Photoshop editors. He then exported those layers and group them in folders with descriptive names to allow me to understand the position they should be inserted in the final image.
 
 ### Generative Art
 Once he had all the layers set up, I would use some nice code from [hashlips](https://github.com/HashLips/hashlips_art_engine) and with a few setting updates, it was ready to be used for our project. Thanks hashlips for sharing this great generating tool!!
