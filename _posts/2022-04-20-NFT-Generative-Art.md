@@ -5,8 +5,8 @@ show_date: true
 title: "My First NFT Collection in Polygon Mainnet"
 date: 2022-04-20
 img: posts/20220420/mandos.png
-tags: [creativity, NFT, IPFS, generative art]
-category: opinion
+tags: [creativity, NFT, IPFS, generative art, Polygon, MATIC, blockchain, dApp]
+category: design
 author: Luis Ignacio Callero
 description: "NFT project with Generative Art and IPFS"
 ---
