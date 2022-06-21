@@ -1,2 +1,2 @@
-# Web Portfolio Page based on Jekyll theme: Adam Blog 2.0
+# Web Portfolio Page based on Jekyll theme: Adam Blog 2.0, Thanks!!
 by [Armando Maynez](https://github.com/amaynez) based on [V1.0](https://github.com/artemsheludko/adam-blog) by [Artem Sheludko](https://github.com/artemsheludko). 
